@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  
+  - name: stg_postgres__addresses
+    description: "A model to store users addresses."
+
+  - name: stg_postgres__events
+    description: "A model for events in the organization."
+
+  - name: stg_postgres__orders
+    description: "A model for orders in the organization."
+
+  - name: stg_postgres__order_items
+    description: "A model for the items in an order."
+
+  - name: stg_postgres__products
+    description: "A model for the products in the organization."
+
+  - name: stg_postgres__promos
+    description: "A model for the promos organized in the organization."
+
+  - name: stg_postgres__users 
+    description: "A model for the users."
